@@ -31,6 +31,12 @@ if (isset($_SESSION['usuario'])) {
     header('location: index.php');
 }
 
+//Array de errores
+$errores = [
+    'nombre' => [],
+    'clave' => []
+];
+
 //Sanear nombre
 function sanear_nombre($nombre)
 {
@@ -43,6 +49,7 @@ function sanear_nombre($nombre)
     ];
 }
 
+//Ciframos la clave
 function cifrar_clave($clave)
 {
     $clave = md5($clave);
@@ -53,10 +60,6 @@ function cifrar_clave($clave)
     ];
 }
 
-$errores = [
-    'nombre' => [],
-    'clave' => []
-];
 
 //Validar nombre
 if (isset($_POST['nombre']) && $_POST['nombre'] != '') {
@@ -76,6 +79,7 @@ if (
     isset($nombreSaneado) && isset($claveCifrada)
     && $nombreSaneado['estado'] && $claveCifrada['estado']
 ) {
+    //Comprobamos que el usuario existe y que se puede logear
     if (user_already_exist($nombreSaneado['nombre']) && user_can_login($nombreSaneado['nombre'], $claveCifrada['clave'])) {
         $_SESSION['usuario'] = $nombreSaneado['nombre'];
         $_SESSION['mensaje'] = 'Bienvenid@ '.$nombreSaneado['nombre'];

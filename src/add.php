@@ -46,11 +46,13 @@ if (!isset($_SESSION['usuario'])) {
 }
 $usuario = $_SESSION && isset($_SESSION['usuario']) ? htmlspecialchars($_SESSION['usuario']) : null;
 
+//Array de errores
 $errores = [
     'nombre' => [],
     'archivo' => [],
     'estado' => []
 ];
+
 
 function moverFichero($nombre, $fichero)
 {
@@ -119,7 +121,7 @@ if ($_POST && $_FILES) {
     ) {
         $idUsuario = get_user_id_by_name($usuario);
         moverFichero($validacionNombre['nombre'], $_FILES['imagen']);
-        subir_imagen($validacionNombre['nombre'], $_FILES['imagen'], $idUsuario);
+        upload_image($validacionNombre['nombre'], $_FILES['imagen'], $idUsuario);
         array_push($errores['estado'], 'Imágen subida correctamente');
     }
 }

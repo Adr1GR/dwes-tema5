@@ -229,7 +229,7 @@ function get_user_id_by_name($nombre)
 }
 
 //Sube una imagen a la base de datos
-function subir_imagen($nombre, $fichero, $idUsuario)
+function upload_image($nombre, $fichero, $idUsuario)
 {
 
     $path = $fichero['name'];
