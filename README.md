@@ -1,59 +1,4 @@
-<div class="page">
-  <header class="mobile-header scrolled">
-    <div class="header-left">
-      <label class="nav-overlay-icon" for="__navigation">
-        <div class="visually-hidden">Toggle site navigation sidebar</div>
-        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
-      </label>
-    </div>
-    <div class="header-center">
-      <a href="index.html"><div class="brand">Acceso a datos</div></a>
-    </div>
-    <div class="header-right">
-      <div class="theme-toggle-container theme-toggle-header">
-        <button class="theme-toggle">
-          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
-          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
-          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
-          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
-        </button>
-      </div>
-      <label class="toc-overlay-icon toc-header-icon" for="__toc">
-        <div class="visually-hidden">Toggle table of contents sidebar</div>
-        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
-      </label>
-    </div>
-  </header>
-  <aside class="sidebar-drawer">
-    <div class="sidebar-container">
-      
-      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
-  
-  
-  <span class="sidebar-brand-text">Acceso a datos</span>
-  
-</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
-  <input class="sidebar-search" placeholder="Búsqueda" name="q" aria-label="Búsqueda">
-  <input type="hidden" name="check_keywords" value="yes">
-  <input type="hidden" name="area" value="default">
-</form>
-<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="practica_guiada.html">Práctica guiada: BlogDWES</a></li>
-<li class="toctree-l1"><a class="reference internal" href="intro_db_php.html">Bases de datos</a></li>
-<li class="toctree-l1"><a class="reference internal" href="prepara_tu_entorno.html">PHP, Apache y MariaDB: prepara tu entorno de desarrollo</a></li>
-<li class="toctree-l1"><a class="reference internal" href="mysqli.html">MariaDB en PHP con mysqli</a></li>
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Práctica: galería de imágenes</a></li>
-</ul>
-
-</div>
-</div>
-
-      </div>
-      
-    </div>
-  </aside>
-  <div class="main">
+<div class="main">
     <div class="content">
       <div class="article-container">
         <a href="#" class="back-to-top muted-link">
@@ -215,4 +160,3 @@
       
     </aside>
   </div>
-</div>
