@@ -1,6 +1,4 @@
-<div class="main">
-    <div class="content">
-      <div class="article-container">
+<div class="article-container">
         <a href="#" class="back-to-top muted-link">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
@@ -95,68 +93,3 @@
 
         </article>
       </div>
-      <footer>
-        
-        <div class="related-pages">
-          
-          <a class="prev-page" href="mysqli.html">
-              <svg><use href="#svg-arrow-right"></use></svg>
-              <div class="page-info">
-                <div class="context">
-                  <span>Previous</span>
-                </div>
-                
-                <div class="title">MariaDB en PHP con mysqli</div>
-                
-              </div>
-            </a>
-        </div>
-        <div class="bottom-of-page">
-          <div class="left-details">
-            <div class="copyright">
-                Copyright © 2022, Román Ginés Martínez Ferrández
-            </div>
-            Made with 
-            <a href="https://github.com/pradyunsg/furo">Furo</a>
-            
-          </div>
-          <div class="right-details">
-            <div class="icons">
-              
-            </div>
-          </div>
-        </div>
-        
-      </footer>
-    </div>
-    <aside class="toc-drawer">
-      
-      
-      <div class="toc-sticky toc-scroll">
-        <div class="toc-title-container">
-          <span class="toc-title">
-            Contenidos
-          </span>
-        </div>
-        <div class="toc-tree-container">
-          <div class="toc-tree">
-            <ul>
-<li><a class="reference internal" href="#">Práctica: galería de imágenes</a><ul>
-<li class=""><a class="reference internal" href="#repositorio-de-github">Repositorio de GitHub</a></li>
-<li class=""><a class="reference internal" href="#descripcion-general-de-la-practica">Descripción general de la práctica</a></li>
-<li class=""><a class="reference internal" href="#sistema-de-informacion">Sistema de información</a></li>
-<li class=""><a class="reference internal" href="#organizacion-del-codigo">Organización del código</a></li>
-<li class=""><a class="reference internal" href="#configurar-entorno-de-desarrollo">Configurar entorno de desarrollo</a></li>
-<li class=""><a class="reference internal" href="#planificacion">Planificación</a></li>
-<li class=""><a class="reference internal" href="#criterios-de-calificacion">Criterios de calificación</a></li>
-</ul>
-</li>
-</ul>
-
-          </div>
-        </div>
-      </div>
-      
-      
-    </aside>
-  </div>
